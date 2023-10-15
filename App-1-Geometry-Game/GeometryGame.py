@@ -44,5 +44,3 @@ user_area = float(input("Guess rectangle area: "))
 # Print out the game result
 print("Your point was inside rectangle: ", user_point.falls_in_rectangle(rectangle))
 print("Your area was off by: ", rectangle.area() - user_area)
-
-#test
